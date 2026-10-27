@@ -1,66 +1,235 @@
 
 [
   {
-    "intent": "fee",
+    "intent": "multiple_program_applications",
     "keywords": [
-      "fee",
-      "fees",
+      "apply for multiple programs",
+      "apply for more than one program",
+      "how many programs",
+      "eight programs",
+      "multiple admissions",
+      "different degree programs"
+    ],
+    "reply": "The University of Sargodha allows applicants to apply for up to 8 programs of their interest, according to its published admission FAQs. You must meet the eligibility criteria for each program and follow the application instructions and deadlines. Applying to a program does not guarantee admission."
+  },
+  {
+    "intent": "admission_fee_refund",
+    "keywords": [
+      "fee refund",
+      "refund policy",
+      "refund my fee",
+      "refund admission fee",
+      "get my fee back",
+      "cancel admission",
+      "admission cancellation"
+    ],
+    "reply": "UOS publishes different fee-refund timelines for semester or trimester programs and annual programs. Under its published policy, semester or trimester students may receive a full refund up to the 7th day after classes commence, a half refund from the 8th to the 15th day, and no refund from the 16th day onward. Annual-system timelines differ. Confirm the policy applicable to your admission and submit the required request to the relevant university office."
+  },
+  {
+    "intent": "o_level_admission",
+    "keywords": [
+      "o level admission",
+      "a level admission",
+      "o and a levels",
+      "equivalence certificate",
+      "ibcc equivalence",
+      "foreign qualification",
+      "equivalent qualification"
+    ],
+    "reply": "Applicants with O-Level, A-Level, or equivalent foreign qualifications must provide the relevant equivalence certificate issued by the Inter Board Committee of Chairmen (IBCC). UOS regulations describe provisional admission in certain cases, subject to submitting the required equivalence certificate before the first examination of the program. Check the current requirements for your specific qualification and degree."
+  },
+  {
+    "intent": "government_employee_admission",
+    "keywords": [
+      "government employee admission",
+      "government servant admission",
+      "noc for admission",
+      "study leave",
+      "employee admission requirements",
+      "government job student"
+    ],
+    "reply": "According to UOS admission FAQs, government employees applying to a self-support program must provide an NOC from the competent authority. Applicants to a regular program must provide an NOC and study leave from the competent authority. Confirm the current documentation requirements with the relevant department before applying."
+  },
+  {
+    "intent": "undergraduate_merit",
+    "keywords": [
+      "undergraduate merit formula",
+      "merit calculation",
+      "how is merit calculated",
+      "merit percentage",
+      "matric marks weightage",
+      "intermediate marks weightage",
+      "merit criteria"
+    ],
+    "reply": "The published UOS undergraduate admission regulations specify a basic merit formula of 60% weightage for the terminal qualification and 40% for Matriculation marks for undergraduate programs after 12 years of education. Additional criteria may apply to particular programs. Always check the current regulations and the requirements of your chosen department."
+  },
+  {
+    "intent": "hostel_application",
+    "keywords": [
+      "hostel application",
+      "apply for hostel",
+      "hostel admission process",
+      "hostel allotment",
+      "hostel room application",
+      "hostel seat",
+      "hostel eligibility"
+    ],
+    "reply": "According to the published UOS hostel rules, students must complete the hostel application and submit it to the admission office with the recommendation of their department chairperson. Hostel allotment depends on merit and eligibility; it is not guaranteed. If your application is approved, pay the prescribed hostel dues within the specified period and follow the hostel administration's instructions."
+  },
+  {
+    "intent": "hostel_facilities",
+    "keywords": [
+      "hostel facilities",
+      "hostel accommodation",
+      "hostel mess",
+      "hostel room facilities",
+      "hostel security",
+      "hostel living",
+      "hostel amenities"
+    ],
+    "reply": "UOS hostels provide residential facilities that can include furnished accommodation, dining or mess facilities, common rooms, reading rooms, and security arrangements. Facilities may vary by hostel. Ask the Hall Council or relevant hostel administration to confirm the facilities, charges, and availability for your allocated residence."
+  },
+  {
+    "intent": "semester_fee",
+    "keywords": [
       "semester fee",
       "fee structure",
-      "challan",
-      "tuition"
+      "tuition fee",
+      "university fees",
+      "how much is the fee",
+      "regular program fee",
+      "self support fee"
     ],
-    "reply": "Semester fees vary by degree program and semester. Please confirm the applicable fee with the relevant university office."
+    "reply": "UOS fees vary according to the degree program, study scheme, and admission category, such as regular or self-support. The exact payable amount should be confirmed from the current approved fee schedule for your program. Do not rely on an amount from a previous semester because fees and other charges may change."
   },
   {
-    "intent": "admission",
+    "intent": "fee_challan",
     "keywords": [
-      "admission",
-      "admissions",
-      "apply",
-      "application",
-      "eligibility",
-      "merit list",
-      "merit"
+      "fee challan",
+      "challan form",
+      "fee voucher",
+      "payment slip",
+      "deposit fee",
+      "fee payment",
+      "paid challan"
     ],
-    "reply": "Admission requirements, eligibility, and merit criteria depend on the program. Check the latest admission information with the relevant university department."
+    "reply": "Use the fee challan or payment voucher issued for your particular admission or semester. Pay the prescribed amount through the payment method and within the deadline stated on the voucher. Keep your payment receipt safely. If the challan is missing, incorrect, or already paid but not recorded, contact the relevant department or university accounts office."
   },
   {
-    "intent": "timing",
+    "intent": "admission_eligibility",
     "keywords": [
-      "timing",
-      "timings",
-      "opening hours",
-      "office hours",
-      "working hours",
-      "class timing",
-      "class schedule"
+      "admission eligibility",
+      "eligibility criteria",
+      "who can apply",
+      "minimum marks",
+      "required qualification",
+      "admission requirements",
+      "eligible for admission"
     ],
-    "reply": "Class and office timings may vary by department and day. Please confirm the current schedule with your department."
+    "reply": "UOS admission eligibility depends on the degree program and the qualification you have completed. Undergraduate applicants generally need the required HSSC, A-Level, or equivalent qualification, while higher-degree programs require the relevant previous degree. Some programs have additional subject, test, or other requirements. Check the criteria for your chosen program before submitting an application."
   },
   {
-    "intent": "library",
+    "intent": "admission_process",
+    "keywords": [
+      "admission process",
+      "how to apply",
+      "apply for admission",
+      "new admission",
+      "online application",
+      "admission form",
+      "application procedure"
+    ],
+    "reply": "To apply to UOS, identify your desired program, review its eligibility criteria, complete the prescribed application process within the advertised deadline, and provide the required academic and personal information. Follow the instructions for submitting documents and any applicable application fee. If selected, complete document verification and admission formalities within the stated time."
+  },
+  {
+    "intent": "scholarships",
+    "keywords": [
+      "scholarship",
+      "scholarships",
+      "financial aid",
+      "need based scholarship",
+      "merit scholarship",
+      "fee concession",
+      "financial assistance"
+    ],
+    "reply": "Students may be eligible for scholarships or financial assistance depending on the schemes offered, academic performance, financial circumstances, and the applicable eligibility rules. Each scheme may require a separate application and supporting documents. Ask the university's relevant scholarship or student financial assistance office about currently available schemes, deadlines, and required documents."
+  },
+  {
+    "intent": "library_services",
     "keywords": [
       "library",
-      "books",
       "library card",
-      "reading room",
       "borrow books",
-      "library hours"
+      "book borrowing",
+      "library membership",
+      "reading room",
+      "library books"
     ],
-    "reply": "For library cards, book availability, borrowing rules, and opening hours, please contact the university library."
+    "reply": "The UOS library provides access to books and other learning resources for academic study. For borrowing books, ask the library about membership or student identification requirements, loan periods, renewals, and overdue-book rules. Carry your valid university student identification and follow the library's current procedures."
   },
   {
-    "intent": "hostel",
+    "intent": "exam_date_sheet",
     "keywords": [
-      "hostel",
-      "hostels",
-      "accommodation",
-      "hostel fee",
-      "hostel admission",
-      "hostel room",
-      "residence"
+      "date sheet",
+      "exam schedule",
+      "examination dates",
+      "exam date",
+      "paper schedule",
+      "midterm dates",
+      "final term dates"
     ],
-    "reply": "Hostel accommodation, fees, and room availability depend on university policies and available spaces. Please contact the relevant hostel office."
+    "reply": "Examination dates depend on your program, semester, and examination system. Check the date sheet issued for your particular examination and confirm any department-specific instructions. Do not assume that dates from an earlier semester apply to your current exams."
+  },
+  {
+    "intent": "exam_results",
+    "keywords": [
+      "exam result",
+      "results",
+      "result announcement",
+      "check my result",
+      "result date",
+      "marks announcement",
+      "semester result"
+    ],
+    "reply": "UOS examination results are announced according to the relevant examination schedule and system. Check the result notice for your program and examination session. If a result is missing, an entry appears incorrect, or you need clarification about marks, contact the relevant examination branch or your department with your roll number and examination details."
+  },
+  {
+    "intent": "roll_number_slip",
+    "keywords": [
+      "roll number slip",
+      "roll no slip",
+      "exam slip",
+      "examination admission card",
+      "slip not available",
+      "missing roll number slip"
+    ],
+    "reply": "Your roll number slip contains important examination information, including your roll number and applicable exam details. The procedure for obtaining it can differ for regular students, affiliated-college students, and private candidates. Follow the instructions issued for your examination category. If your slip is missing, contact your college or the relevant examination branch before the exam."
+  },
+  {
+    "intent": "transcript_degree_documents",
+    "keywords": [
+      "transcript",
+      "degree issuance",
+      "degree certificate",
+      "duplicate degree",
+      "academic documents",
+      "degree verification",
+      "dmc",
+      "marks certificate"
+    ],
+    "reply": "For a transcript, degree certificate, duplicate document, or academic record, contact the relevant university office and confirm the required application form, supporting documents, fee, and processing time. Requirements vary by document and student category. Keep your registration number, identification, and previous academic records available when making your request."
+  },
+  {
+    "intent": "university_timings",
+    "keywords": [
+      "university timings",
+      "office timings",
+      "office hours",
+      "working hours",
+      "class timings",
+      "class schedule",
+      "when does university open"
+    ],
+    "reply": "University office hours, class schedules, and department timings may differ, particularly during examinations, holidays, and semester breaks. Confirm the schedule with your department or the relevant office before visiting. Class timings should be taken from the timetable issued for your own program and semester."
   }
 ]
