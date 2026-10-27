@@ -1,0 +1,66 @@
+
+[
+  {
+    "intent": "fee",
+    "keywords": [
+      "fee",
+      "fees",
+      "semester fee",
+      "fee structure",
+      "challan",
+      "tuition"
+    ],
+    "reply": "Semester fees vary by degree program and semester. Please confirm the applicable fee with the relevant university office."
+  },
+  {
+    "intent": "admission",
+    "keywords": [
+      "admission",
+      "admissions",
+      "apply",
+      "application",
+      "eligibility",
+      "merit list",
+      "merit"
+    ],
+    "reply": "Admission requirements, eligibility, and merit criteria depend on the program. Check the latest admission information with the relevant university department."
+  },
+  {
+    "intent": "timing",
+    "keywords": [
+      "timing",
+      "timings",
+      "opening hours",
+      "office hours",
+      "working hours",
+      "class timing",
+      "class schedule"
+    ],
+    "reply": "Class and office timings may vary by department and day. Please confirm the current schedule with your department."
+  },
+  {
+    "intent": "library",
+    "keywords": [
+      "library",
+      "books",
+      "library card",
+      "reading room",
+      "borrow books",
+      "library hours"
+    ],
+    "reply": "For library cards, book availability, borrowing rules, and opening hours, please contact the university library."
+  },
+  {
+    "intent": "hostel",
+    "keywords": [
+      "hostel",
+      "hostels",
+      "accommodation",
+      "hostel fee",
+      "hostel admission",
+      "hostel room",
+      "residence"
+    ],
+    "reply": "Hostel accommodation, fees, and room availability depend on university policies and available spaces. Please contact the relevant hostel office."
+  }
+]
